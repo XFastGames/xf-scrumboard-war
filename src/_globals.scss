@@ -1,0 +1,10 @@
+// Can't use the nice '~react-md/src/scss/react-md' since this isn't being bundled with webpack
+@import '../node_modules/react-md/src/scss/react-md';
+
+// Variable overrides
+
+$md-primary-color: $md-red-500;
+$md-secondary-color: $md-amber-500;
+$md-background-color: $md-red-100;
+
+$md-toolbar-include-themed: true !default;
